@@ -2,8 +2,6 @@
 
 An internal web application for Palo Alto Networks that enables team members to submit SnapLogic pipeline operation requests through a form-based UI. The backend creates a JIRA ticket, records the request in BigQuery, and publishes a Pub/Sub message that triggers downstream automation pipelines.
 
-This is the **local development** version. For the production-deployed version, see [`snaplogic-automations-backend/README.md`](./snaplogic-automations-backend/README.md).
-
 ---
 
 ## Project Structure
